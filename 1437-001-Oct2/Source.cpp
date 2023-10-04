@@ -10,14 +10,15 @@ using namespace std;
 
 int main()
 {
-    Vehicle someVehicle{ 421, "Air" };
+    //Vehicle someVehicle{ 421, "Air" };
 
-    someVehicle.printVehicleDetails(); 
+    //someVehicle.printVehicleDetails(); 
     //someVehicle.topSpeed = 21; 
 
-    Automobile bigRig{ 90, "Land", 18 };
+    //Automobile bigRig{ 90, "Land", 18 };
+    Automobile rickshaw{ 2 };
 
-    bigRig.printAutomobileDetails();
+    rickshaw.printAutomobileDetails();
 
     return 0;
 }

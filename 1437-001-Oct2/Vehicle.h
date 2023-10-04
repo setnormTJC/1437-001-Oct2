@@ -18,6 +18,7 @@ class Vehicle
 	string terrainType; 
 
 public: 
+	Vehicle(); 
 	Vehicle(int, string); 
 
 	void printVehicleDetails()
@@ -44,7 +45,17 @@ class Automobile : public Vehicle
 	//Automobile(int);
 
 public: 
-	Automobile(int, string, int); 
+	/// <summary>
+	/// This is a contructor for the `Automobile` class.
+	/// It calls the constructor with params of the parent class (Vehicle)
+	/// </summary>
+	/// <param name="tSpeed"></param>
+	/// <param name="tType"></param>
+	/// <param name="nWheels"></param>
+	Automobile(int tSpeed, string tType, int nWheels); 
+	//move constructor (&&)
+
+	Automobile(int nWheels);
 
 	void printAutomobileDetails();
 };
