@@ -3,7 +3,7 @@
   <Class Name="Automobile" Collapsed="true">
     <Position X="7.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Vehicle.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -29,9 +29,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Vehicle">
-    <Position X="5" Y="0.5" Width="1.5" />
+    <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIIAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIIAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Vehicle.h</FileName>
     </TypeIdentifier>
   </Class>

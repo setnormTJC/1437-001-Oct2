@@ -19,6 +19,12 @@ Vehicle::Vehicle(int tSpeed, string tType)
 	terrainType = tType; 
 }
 
+void Vehicle::setAllVehicleAttributes(int tSpeed, string tType)
+{
+	topSpeed = tSpeed; 
+	terrainType = tType;
+}
+
 
 
 Automobile::Automobile(int tSpeed, string tType, int nWheels)
@@ -29,6 +35,13 @@ Automobile::Automobile(int tSpeed, string tType, int nWheels)
 
 Automobile::Automobile(int nWheels)
 {
+	numberOfWheels = nWheels;
+}
+
+void Automobile::setAllAutomobileAttribs(int tSpeed, string tType, int nWheels)
+{
+	//topSpeed = tSpeed;
+	setAllVehicleAttributes(tSpeed, tType);
 	numberOfWheels = nWheels;
 }
 

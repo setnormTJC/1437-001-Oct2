@@ -27,6 +27,8 @@ public:
 			<< terrainType << endl; 
 	}
 
+	void setAllVehicleAttributes(int tSpeed, string tType);
+
 };
 
 
@@ -57,7 +59,11 @@ public:
 
 	Automobile(int nWheels);
 
+	void setAllAutomobileAttribs(int tSpeed, string tType, int nWheels);
+
 	void printAutomobileDetails();
+
+
 };
 
 class Truck : public Automobile
