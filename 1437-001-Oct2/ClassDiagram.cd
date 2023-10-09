@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Automobile" Collapsed="true">
-    <Position X="7.25" Y="2.75" Width="1.5" />
+    <Position X="7.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Vehicle.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Airplane">
-    <Position X="3" Y="2.75" Width="1.5" />
+    <Position X="1.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Vehicle.h</FileName>
@@ -31,7 +31,7 @@
   <Class Name="Vehicle">
     <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIIAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAI=</HashCode>
+      <HashCode>AAQIIAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Vehicle.h</FileName>
     </TypeIdentifier>
   </Class>

@@ -10,26 +10,33 @@ using namespace std;
 
 int main()
 {
-    //__debug_break;
-    
-    //Vehicle someVehicle{ 421, "Air" };
+    ////__debug_break;
+    //
+                        //topSpeed      //terrain type
+    Vehicle someVehicle{ 421,           "Air" };
+    someVehicle.print(); 
 
-    //someVehicle.printVehicleDetails(); 
-    //someVehicle.topSpeed = 21; 
+    Automobile ptCruiser{ 110, "land", 5 };
+    ptCruiser.print(); 
 
-    //Automobile bigRig{ 90, "Land", 18 };
-    Automobile ptCruiser{ 4 };
 
-    cout << "Before calling setAll..." << endl; 
-    ptCruiser.printAutomobileDetails();
+    ////someVehicle.printVehicleDetails(); 
+    ////someVehicle.topSpeed = 21; 
 
-    ptCruiser.setAllAutomobileAttribs(100, "the road", 3);
-    cout << "\n\n\nAFTER calling setAll..." << endl;
-    ptCruiser.printAutomobileDetails();
+    ////Automobile bigRig{ 90, "Land", 18 };
+    //Automobile ptCruiser{ 4 };
+
+    //cout << "Before calling setAll..." << endl; 
+    //ptCruiser.printAutomobileDetails();
+
+    //ptCruiser.setAllAutomobileAttribs(100, "the road", 3);
+    //cout << "\n\n\nAFTER calling setAll..." << endl;
+    //ptCruiser.printAutomobileDetails();
 
 
 
     //rickshaw.s
 
+    
     return 0;
 }

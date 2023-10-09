@@ -8,6 +8,12 @@ Vehicle::Vehicle()
 	terrainType = "land";
 }
 
+void Vehicle::print()
+{
+	cout << "Top speed: " << topSpeed << "\t" << "Terrain type: "
+		<< terrainType << endl;
+}
+
 Vehicle::Vehicle(int tSpeed, string tType)
 //	:topSpeed(topSpeed), terrainType(terrainType)
 //{};
@@ -45,8 +51,16 @@ void Automobile::setAllAutomobileAttribs(int tSpeed, string tType, int nWheels)
 	numberOfWheels = nWheels;
 }
 
-void Automobile::printAutomobileDetails()
+void Automobile::print()
 {
-	printVehicleDetails(); 
-	cout << "Number of wheels: " << numberOfWheels << endl;
+	Vehicle::print(); 
+	cout << "Number of wheels: " << numberOfWheels << endl; 
+	//cout << "Top speed: " << topSpeed << "\t" << "Terrain type: "
+	//	<< terrainType << endl;
 }
+
+//void Automobile::printAutomobileDetails()
+//{
+//	print(); 
+//	cout << "Number of wheels: " << numberOfWheels << endl;
+//}

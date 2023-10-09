@@ -21,11 +21,8 @@ public:
 	Vehicle(); 
 	Vehicle(int, string); 
 
-	void printVehicleDetails()
-	{
-		cout << "Top speed: " << topSpeed << "\t" << "Terrain type: "
-			<< terrainType << endl; 
-	}
+	void print(); //declares that a function named "print" is a member of `Vehicle`
+
 
 	void setAllVehicleAttributes(int tSpeed, string tType);
 
@@ -61,10 +58,11 @@ public:
 
 	void setAllAutomobileAttribs(int tSpeed, string tType, int nWheels);
 
-	void printAutomobileDetails();
+	//void printAutomobileDetails();
 
+	void print(); 
 
-};
+}; //end `Automobile` class def.
 
 class Truck : public Automobile
 {
